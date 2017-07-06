@@ -1,4 +1,5 @@
 # RPS -- Rock Paper Scissors
-<p text-align="center"> My first little javascript project </p>
+
+Little preview of my website
 
 ![preshow](https://user-images.githubusercontent.com/29773737/27926115-8d9bd3f8-6287-11e7-9571-1a719f2959cb.png)
