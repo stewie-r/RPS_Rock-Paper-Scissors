@@ -95,44 +95,6 @@ body {
 	transition: color .4s ease-in-out;
 }
 
-
-@keyframes moveRock {
-	0% {left: 0.7em;}
-	50% {left: 2.7em; color: rgb(0, 0, 0);}
-	100% {left: 0.7em;}
-}
-
-@keyframes moveRock2 {
-	0% {right: 0.7em;}
-	50% {right: 2.7em; color: rgb(193, 0, 0);}
-	100% {right: 0.7em;}
-}
-
-@keyframes movePaper {
-	0% {left: 0.7em;}
-	50% {left: 2.7em; color: rgb(0, 0, 0);}
-	100% {left: 0.7em;}
-}
-
-@keyframes movePaper2 {
-	0% {right: 0.7em;}
-	50% {right: 2.7em; color: rgb(193, 0, 0);}
-	100% {right: 0.7em;}
-}
-
-@keyframes moveScissors {
-	0% {left: 0.7em;}
-	50% {left: 2.7em; color: rgb(0, 0, 0);}
-	100% {left: 0.7em;}
-}
-
-@keyframes moveScissors2 {
-	0% {right: 0.7em;}
-	50% {right: 2.7em; color: rgb(193, 0, 0);}
-	100% {right: 0.7em;}
-}
-
-
  /* ----------------------------------------------------------------------------- */
 
 .user-color {
