@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#midButton {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	position: absolute;
+	left: 33.3em;
+	top: 16em;
+	border: none;
+	background-color: transparent;
+}
+
+.left-side-hr {
+	position: absolute;
+	transform: rotate(90deg);
+	left: 46em;
+	width: 6%;
+	top: 25em;
+}
+
+.right-side-hr {
+	position: absolute;
+	transform: rotate(90deg);
+	color: rgba(193, 0, 0, .6);
+	right: 46em;
+	width: 6%;
+	top: 25em;
+}
+
+.fa {
+	cursor: pointer;
+	position: absolute;
+	font-size: 13em;
+	color: rgba(0, 0, 0, .6);
+}
+
+.right-side .fa {
+	color: rgba(193, 0, 0, .6);
+}
+
+.rock {
+	transform: rotate(90deg);
+	left: 0.7em;
+}	.moveRock {
+	animation: moveRock 1.6s;
+	transition: color .4s ease-in-out;
+}
+
+.rock2 {
+	cursor: not-allowed;
+	transform: rotate(-90deg);
+	right: 0.7em;
+}	.moveRock2 {
+	animation: moveRock2 1.6s;
+	transition: color .4s ease-in-out;
+}
+
+.paper {
+	transform: rotateY(180deg);
+	left: 0.7em;
+	top: 1.3em;
+}	.movePaper {
+	animation: movePaper 1.6s;
+	transition: color .4s ease-in-out;
+}
+
+.paper2 {
+	cursor: not-allowed;
+	right: 0.7em;
+	top: 1.3em;
+}	.movePaper2 {
+	animation: movePaper2 1.6s;
+	transition: color .4s ease-in-out;
+}
+
+.scissors {
+	transform: rotateY(180deg);
+	left: 0.7em;
+	top: 2.6em;
+}	.moveScissors {
+	animation: moveScissors 1.6s;
+	transition: color .4s ease-in-out;
+}
+
+.scissors2 {
+	cursor: not-allowed;
+	right: 0.7em;
+	top: 2.6em;
+}	.moveScissors2 {
+	animation: moveScissors2 1.6s;
+	transition: color .4s ease-in-out;
+}
+
+
+@keyframes moveRock {
+	0% {left: 0.7em;}
+	50% {left: 2.7em; color: rgb(0, 0, 0);}
+	100% {left: 0.7em;}
+}
+
+@keyframes moveRock2 {
+	0% {right: 0.7em;}
+	50% {right: 2.7em; color: rgb(193, 0, 0);}
+	100% {right: 0.7em;}
+}
+
+@keyframes movePaper {
+	0% {left: 0.7em;}
+	50% {left: 2.7em; color: rgb(0, 0, 0);}
+	100% {left: 0.7em;}
+}
+
+@keyframes movePaper2 {
+	0% {right: 0.7em;}
+	50% {right: 2.7em; color: rgb(193, 0, 0);}
+	100% {right: 0.7em;}
+}
+
+@keyframes moveScissors {
+	0% {left: 0.7em;}
+	50% {left: 2.7em; color: rgb(0, 0, 0);}
+	100% {left: 0.7em;}
+}
+
+@keyframes moveScissors2 {
+	0% {right: 0.7em;}
+	50% {right: 2.7em; color: rgb(193, 0, 0);}
+	100% {right: 0.7em;}
+}
+
+
+ /* ----------------------------------------------------------------------------- */
+
+.user-color {
+	position: absolute;
+	border: 7px solid black;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	bottom: 50px;
+	left: 4em;
+	transition: border-color .2s ease-in-out;
+}	.user-color:hover {
+	border-color: rgba(0, 0, 0, .6);
+}
+
+.user-color-p {
+	cursor: default;
+	position: absolute;
+	font-size: 30px;
+	bottom: 50px;
+	left: 7em;
+	transition: color .2s ease-in-out;
+}	.user-color-p:hover {
+	color: rgba(0, 0, 0, .6);
+}
+
+.computer-color {
+	position: absolute;
+	border: 7px solid black;
+	border-radius: 50%;
+	border-color: rgb(193, 0, 0);
+	width: 80px;
+	height: 80px;
+	bottom: 50px;
+	right: 4em;
+	transition: border-color .2s ease-in-out;
+}	.computer-color:hover {
+	border-color: rgba(193, 0, 0, .6);
+}
+
+.computer-color-p {
+	cursor: default;
+	position: absolute;
+	font-size: 30px;
+	color: rgb(193, 0, 0);
+	bottom: 50px;
+	right: 7em;
+	transition: color .2s ease-in-out;
+}	.computer-color-p:hover {
+	color: rgba(193, 0, 0, .6);
+}
