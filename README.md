@@ -5,8 +5,8 @@ First javascript project
 ## Basic Rules (of RPS)
 
 - paper beats rock
-- scissors beats rock
 - rock beats scissors
+- scissors beats paper
 - identical hands equals automatically a tie
 
 ## Little preview of the following site
