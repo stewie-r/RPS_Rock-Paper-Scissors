@@ -146,3 +146,15 @@ body {
 }	.computer-color-p:hover {
 	color: rgba(193, 0, 0, .6);
 }
+
+.user-counter {
+	position: absolute;
+	left: 2.04em;
+	bottom: 6.5em;
+}
+
+.computer-counter {
+	position: absolute;
+	right: 2.04em;
+	bottom: 6.5em;
+}
