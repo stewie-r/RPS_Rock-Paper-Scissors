@@ -11,4 +11,4 @@ First javascript project
 
 ## Little preview of the following site
 
-![preshow](https://user-images.githubusercontent.com/29773737/27926115-8d9bd3f8-6287-11e7-9571-1a719f2959cb.png)
+![rps-prescreen](https://user-images.githubusercontent.com/29773737/28116053-a4f7d310-6707-11e7-86ff-b7c4a2faac50.png)
