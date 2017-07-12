@@ -1,5 +1,8 @@
 $(document).ready(function() {
-
+	
+	var userCounter = 1;
+	var computerCounter = 1;
+	
 $(".rock").click(function() {
 
 	
@@ -36,6 +39,8 @@ $(".rock").click(function() {
 				var rockLost = $("#midButton").html("Go and pick up new rocks") &&
 					       $("#midButton").css({"left": "32.6em"});
 						
+						$(".computer-counter").html(computerCounter++);			
+			
 					$(".left-side-hr").animate({"left": "44.5em"}, 200).delay(2200).animate({"left": "46em"}, 200);
 					$(".right-side-hr").animate({"right": "44.5em"}, 200).delay(2200).animate({"right": "46em"}, 200);
 					$(rockLost).fadeIn(300).delay(1900).fadeOut(300);
@@ -52,6 +57,8 @@ $(".rock").click(function() {
 				var rockWon = $("#midButton").html("Sick rock bro!") &&
 					      $("#midButton").css({"left": "35.2em"});
 						
+						$(".user-counter").html(userCounter++);
+			
 					$(".left-side-hr").animate({"left": "44.5em"}, 200).delay(2200).animate({"left": "46em"}, 200);
 					$(".right-side-hr").animate({"right": "44.5em"}, 200).delay(2200).animate({"right": "46em"}, 200);
 					$(rockWon).fadeIn(300).delay(1900).fadeOut(300);
@@ -80,7 +87,9 @@ $(".paper").click(function() {
 
 				var paperWon = $("#midButton").html("Rock dressed as paper") &&
 					       $("#midButton").css({"left": "33.7em"});
-						
+			
+						$(".user-counter").html(userCounter++);
+			
 					$(".left-side-hr").animate({"left": "44.5em"}, 200).delay(2200).animate({"left": "46em"}, 200);
 					$(".right-side-hr").animate({"right": "44.5em"}, 200).delay(2200).animate({"right": "46em"}, 200);
 					$(paperWon).fadeIn(300).delay(1900).fadeOut(300);
@@ -113,6 +122,8 @@ $(".paper").click(function() {
 				var paperLost = $("#midButton").html("Paper got pierced by scissors") &&
 						$("#midButton").css({"left": "31.9em"});
 
+						$(".computer-counter").html(computerCounter++);
+			
 					$(".left-side-hr").animate({"left": "44.5em"}, 200).delay(2200).animate({"left": "46em"}, 200);
 					$(".right-side-hr").animate({"right": "44.5em"}, 200).delay(2200).animate({"right": "46em"}, 200);
 					$(paperLost).fadeIn(300).delay(1900).fadeOut(300);
@@ -143,6 +154,8 @@ $(".scissors").click(function() {
 				var scissorsLost = $("#midButton").html("Buy yourself some new scissors") &&
 						   $("#midButton").css({"left": "31.5em"});
 						
+						$(".computer-counter").html(computerCounter++);
+			
 					$(".left-side-hr").animate({"left": "44.5em"}, 200).delay(2200).animate({"left": "46em"}, 200);
 					$(".right-side-hr").animate({"right": "44.5em"}, 200).delay(2200).animate({"right": "46em"}, 200);
 					$(scissorsLost).fadeIn(300).delay(1900).fadeOut(300);
@@ -159,6 +172,8 @@ $(".scissors").click(function() {
 				var scissorsWon = $("#midButton").html("Dat paper got cut in pieces") &&
 						  $("#midButton").css({"left": "32.6em"});
 						
+						$(".user-counter").html(userCounter++);
+			
 					$(".left-side-hr").animate({"left": "44.5em"}, 200).delay(2200).animate({"left": "46em"}, 200);
 					$(".right-side-hr").animate({"right": "44.5em"}, 200).delay(2200).animate({"right": "46em"}, 200);
 					$(scissorsWon).fadeIn(300).delay(1900).fadeOut(300);
